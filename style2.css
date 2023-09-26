@@ -1,0 +1,116 @@
+body {
+  background-image: url(background.jpg);
+  background-size: 100%;
+}
+
+.box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.box::before {
+  content: "";
+  position: absolute;
+  background-color: black;
+  color: white;
+  opacity: 0.5;
+  height: 800px;
+  width: 1200px;
+  border-radius: 20px;
+}
+
+.logo {
+  position: relative;
+  display: block;
+  width: 190px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 65px;
+}
+
+.titolo {
+  position: relative;
+  color: limegreen;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  margin-top: 5px;
+}
+
+.actions {
+  position: relative;
+  width: 60%;
+  height: 45px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  background-color: limegreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxmono {
+  margin-top: 20px;
+}
+
+.user {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: 500;
+}
+.posizione {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  display: block;
+}
+.posizione::before {
+  content: "\21A6";
+}
+.crg {
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+}
+
+.carica {
+  width: 300px;
+  background-color: goldenrod;
+}
+
+.boxmono1,
+.boxmono,
+.boxmono2 {
+  position: relative;
+  width: 60%;
+  height: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  /*margin-top: 100px;*/
+}
+
+.boxmono1,
+.boxmono2 {
+  margin-top: 85px;
+}
+
+.carica,
+.carica1,
+.carica2 {
+  position: relative;
+  height: 30px;
+  border-radius: 5px;
+  display: block;
+}
+.carica1 {
+  width: 500px;
+  background-color: rgb(36, 193, 36);
+}
+.carica2 {
+  width: 85px;
+  background-color: rgb(212, 43, 43);
+}
